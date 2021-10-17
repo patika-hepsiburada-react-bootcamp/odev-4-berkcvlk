@@ -1,5 +1,11 @@
+import { WeatherCard } from "components";
+
 const App = () => {
-  return <div>Berk</div>;
+  return (
+    <>
+      <WeatherCard />
+    </>
+  );
 };
 
 export default App;
